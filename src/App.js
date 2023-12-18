@@ -1,10 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import HomePage from "./components/HomePage";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faBars);
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <HomePage />
     </div>
   );
 }
