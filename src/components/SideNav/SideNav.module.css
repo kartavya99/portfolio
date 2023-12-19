@@ -68,8 +68,12 @@ a:hover {
 .iconLink {
   border-radius: 90%;
 }
+
+.iconLink:hover {
+  background-color: rgb(37, 36, 36);
+}
 .footerLine {
-  margin-top: -16px;
+  margin: -16px 0px 0px 0px;
   color: #818181;
   font-size: 30px;
   font-family: Montserrat;

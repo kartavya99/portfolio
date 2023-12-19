@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./components/RootLayout/RootLayout";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
+      },
+      {
+        path: "/skills",
+        element: <Skills />,
       },
     ],
   },

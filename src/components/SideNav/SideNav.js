@@ -19,7 +19,9 @@ const SideNav = () => {
         <Link className={classes.navLink} to="projects">
           Projects
         </Link>
-        <Link className={classes.navLink}>Skills</Link>
+        <Link className={classes.navLink} to="skills">
+          Skills
+        </Link>
         <Link className={classes.navLink}>Contact</Link>
         <Link className={classes.navLink}>
           Resume <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
@@ -28,21 +30,33 @@ const SideNav = () => {
       <footer>
         <div>
           <ul className={classes.icon}>
-            <Link>
+            <Link
+              to="https://github.com/kartavya99"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
                 className={classes.iconLink}
               ></FontAwesomeIcon>
             </Link>
-            <Link>
+            <Link
+              to="https://www.linkedin.com/in/kartavya99"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faLinkedin}
                 size="2x"
                 className={classes.iconLink}
               ></FontAwesomeIcon>
             </Link>
-            <Link>
+            <Link
+              to="mailto:kartavyas@gmail.com"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faEnvelope}
                 size="2x"
