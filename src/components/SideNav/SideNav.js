@@ -13,8 +13,8 @@ const SideNav = () => {
       <img src={img} alt="beautiful view" className={classes.img} />
       <h1 className={classes.name}>KARTAVYA SAINI</h1>
       <ul className={classes.navList}>
-        <Link>About</Link>
-        <Link>Projects</Link>
+        <Link to="about">About</Link>
+        <Link to="projects">Projects</Link>
         <Link>Skills</Link>
         <Link>Contact</Link>
         <Link>
