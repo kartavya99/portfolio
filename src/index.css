@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-color: #1b1e20;
+  color: #fff;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Lato", serif;
-  color: #fff;
+
   min-height: 100vh;
 }
 

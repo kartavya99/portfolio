@@ -1,19 +1,20 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "./components/HomePage/HomePage";
-import AboutPage from "./components/SideNav/AboutPage";
+import RootLayout from "./components/RootLayout/RootLayout";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLaptopCode,
+  faServer,
+  faToolbox,
+  faLightbulb,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faBars);
+library.add(faLaptopCode, faServer, faToolbox, faLightbulb);
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />,
-  },
-  {
-    path: "/nav",
-    element: <AboutPage />,
+    element: <RootLayout />,
   },
 ]);
 
