@@ -21,9 +21,43 @@
   text-align: center;
 }
 
+a {
+  /* margin: 10px; */
+  padding: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+a:hover {
+  color: black;
+  background-color: azure;
+  border-radius: 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.footerLine {
+  color: #818181;
+  font-size: 30px;
+  font-family: Montserrat;
+  text-align: center;
+}
 @media only screen and (max-width: 768px) {
   .name {
     font-size: 30px;
+  }
+
+  a {
+    font-size: 20px;
   }
 }
 
@@ -40,6 +74,21 @@
   .name {
     font-size: 20px;
   }
+
+  .navList {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    text-align: center;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .footerLine {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 438px) {
@@ -50,5 +99,9 @@
 
   .img {
     display: none;
+  }
+
+  a {
+    font-size: 15px;
   }
 }
