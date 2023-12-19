@@ -1,17 +1,19 @@
+.sideNav {
+  height: 100vh;
+  /* background-color: lightblue; */
+  background-color: rgb(37, 36, 36);
+  padding-top: 20px;
+  top: 0;
+  left: 0;
+}
+
 .img {
   margin-top: 10%;
   margin-left: 25%;
   width: 50%;
   padding: 15px;
   border-radius: 35%;
-}
-
-.sideNav {
-  height: 100vh;
-  /* background-color: lightblue; */
-  padding-top: 20px;
-  top: 0;
-  left: 0;
+  background-color: rgb(37, 36, 36);
 }
 
 .name {
@@ -19,6 +21,11 @@
   font-size: 50px;
   margin-top: 5px;
   text-align: center;
+  background-color: rgb(37, 36, 36);
+}
+
+li {
+  list-style-type: none;
 }
 
 a {
@@ -30,6 +37,7 @@ a {
   display: block;
   text-align: center;
   font-family: Montserrat;
+  background-color: rgb(37, 36, 36);
 }
 
 a:hover {
@@ -39,18 +47,34 @@ a:hover {
   text-decoration: none;
 }
 
+.navList {
+  text-decoration: none;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #818181;
+  background-color: rgb(37, 36, 36);
+}
+
 .icon {
   display: flex;
   justify-content: center;
   text-align: center;
   padding: 0;
+  background-color: rgb(37, 36, 36);
 }
 
+.iconLink {
+  border-radius: 90%;
+}
 .footerLine {
+  margin-top: -16px;
   color: #818181;
   font-size: 30px;
   font-family: Montserrat;
   text-align: center;
+  background-color: rgb(37, 36, 36);
 }
 @media only screen and (max-width: 768px) {
   .name {

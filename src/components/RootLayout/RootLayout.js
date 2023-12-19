@@ -1,8 +1,7 @@
 import React from "react";
-import SideNav from "../SideNav/SideNav";
 import { Outlet } from "react-router-dom";
-import About from "../About/About";
-import Projects from "../Projects/Projects";
+import SideNav from "../SideNav/SideNav";
+import HomePage from "../HomePage";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 

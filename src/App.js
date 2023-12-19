@@ -10,6 +10,7 @@ import {
   faToolbox,
   faLightbulb,
 } from "@fortawesome/free-solid-svg-icons";
+import HomePage from "./components/HomePage";
 
 library.add(faLaptopCode, faServer, faToolbox, faLightbulb);
 
@@ -18,6 +19,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <RootLayout />,
     children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+
       {
         path: "/about",
         element: <About />,

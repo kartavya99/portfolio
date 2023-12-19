@@ -12,15 +12,19 @@ const SideNav = () => {
     <div className={classes.sideNav}>
       <img src={img} alt="beautiful view" className={classes.img} />
       <h1 className={classes.name}>KARTAVYA SAINI</h1>
-      <ul className={classes.navList}>
-        <Link to="about">About</Link>
-        <Link to="projects">Projects</Link>
-        <Link>Skills</Link>
-        <Link>Contact</Link>
-        <Link>
+      <li className={classes.navList}>
+        <Link className={classes.navLink} to="about">
+          About
+        </Link>
+        <Link className={classes.navLink} to="projects">
+          Projects
+        </Link>
+        <Link className={classes.navLink}>Skills</Link>
+        <Link className={classes.navLink}>Contact</Link>
+        <Link className={classes.navLink}>
           Resume <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
         </Link>
-      </ul>
+      </li>
       <footer>
         <div>
           <ul className={classes.icon}>
@@ -28,21 +32,21 @@ const SideNav = () => {
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
-                className="p-2 mx-2 text-light"
+                className={classes.iconLink}
               ></FontAwesomeIcon>
             </Link>
             <Link>
               <FontAwesomeIcon
                 icon={faLinkedin}
                 size="2x"
-                className="p-2 mx-2 text-light"
+                className={classes.iconLink}
               ></FontAwesomeIcon>
             </Link>
             <Link>
               <FontAwesomeIcon
                 icon={faEnvelope}
                 size="2x"
-                className="p-2 mx-2 text-light"
+                className={classes.iconLink}
               ></FontAwesomeIcon>
             </Link>
           </ul>

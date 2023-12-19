@@ -7,7 +7,7 @@ const About = () => {
       <header className={classes.heading}>
         <h1>About Me |</h1>
       </header>
-      <section>
+      <section className={classes.sectionOne}>
         <p>
           Full stack web developer leveraging a background in sales and
           marketing to provide the best user experience for web application
