@@ -22,7 +22,9 @@ const SideNav = () => {
         <Link className={classes.navLink} to="skills">
           Skills
         </Link>
-        <Link className={classes.navLink}>Contact</Link>
+        <Link className={classes.navLink} to="contact">
+          Contact
+        </Link>
         <Link className={classes.navLink}>
           Resume <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
         </Link>
