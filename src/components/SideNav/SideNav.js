@@ -11,7 +11,9 @@ const SideNav = () => {
   return (
     <div className={classes.sideNav}>
       <img src={img} alt="beautiful view" className={classes.img} />
-      <h1 className={classes.name}>KARTAVYA SAINI</h1>
+      <Link className={classes.navLink} to="/">
+        KARTAVYA SAINI
+      </Link>
       <li className={classes.navList}>
         <Link className={classes.navLink} to="about">
           About

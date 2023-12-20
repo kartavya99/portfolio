@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Lato", serif;
-
+  overflow: hidden;
   min-height: 100vh;
 }
 

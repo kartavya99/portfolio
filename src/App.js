@@ -12,7 +12,7 @@ import {
   faToolbox,
   faLightbulb,
 } from "@fortawesome/free-solid-svg-icons";
-import HomePage from "./components/HomePage";
+import HomePage from "./components/HomePage/HomePage";
 
 library.add(faLaptopCode, faServer, faToolbox, faLightbulb);
 
