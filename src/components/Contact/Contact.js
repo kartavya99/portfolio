@@ -10,7 +10,9 @@ const Contact = () => {
   return (
     <div className={classes.main}>
       <div>
-        <header className={classes.heading}>Contact Me |</header>
+        <header className={classes.heading}>
+          <h1>Contact Me |</h1>
+        </header>
       </div>
 
       <div>
