@@ -1,8 +1,4 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-  createHashRouter,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./components/RootLayout/RootLayout";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
@@ -20,7 +16,7 @@ import HomePage from "./components/HomePage/HomePage";
 
 library.add(faLaptopCode, faServer, faToolbox, faLightbulb);
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
