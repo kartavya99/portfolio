@@ -7,13 +7,16 @@ import Card from "react-bootstrap/Card";
 const Projects = () => {
   return (
     <div className={classes.mainProject}>
-      <header className={classes.heading}>
-        <h1>Projects |</h1>
+      <header>
+        <h1 className={classes.headingPro}>Projects |</h1>
       </header>
 
       <section className={classes.projectCard}>
         {ProjectData.map((proj) => (
-          <Card className="p-3 m-3" style={{ width: "20rem" }}>
+          <Card
+            className=" card custom-style box p-3 m-3"
+            style={{ width: "18rem" }}
+          >
             <Card.Img variant="top" src={proj.img} />
             <Card.Body style={{ backgroundColor: "white" }}>
               <Card.Title className={classes.proTitle}>{proj.title}</Card.Title>

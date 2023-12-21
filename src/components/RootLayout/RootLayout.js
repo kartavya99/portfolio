@@ -6,11 +6,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const RootLayout = () => {
   return (
-    <div className="row">
-      <div className="col-sm-4">
+    <div className="row ">
+      <div className="col-sm-4 sideNave">
         <SideNav />
       </div>
-      <div className="col-sm-8">
+      <div className="col-sm-8 parentDiv">
         <Outlet />
       </div>
     </div>

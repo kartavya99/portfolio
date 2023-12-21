@@ -27,16 +27,20 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+  .main {
+    min-height: 100vh;
+  }
   .heading {
-    margin-right: 30px;
+    margin: 20px;
   }
 
   section {
     margin-right: 30px;
+    padding: 0px;
   }
 
   p {
-    font-size: 15px;
-    margin: 0px 0px 0px 30px;
+    font-size: 12px;
+    margin: 10px 0px 0px 30px;
   }
 }
