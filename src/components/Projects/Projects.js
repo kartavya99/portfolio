@@ -19,7 +19,7 @@ const Projects = () => {
           >
             <Figure>
               <Figure.Image
-                width={171}
+                width={255}
                 height={180}
                 alt="171x180"
                 src={proj.img}
@@ -32,10 +32,20 @@ const Projects = () => {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href={proj.gitHubUrl} className={classes.proLink}>
+              <Card.Link
+                target="__blank"
+                rel="noopener noreferrer"
+                href={proj.gitHubUrl}
+                className={classes.proLink}
+              >
                 Source Code
               </Card.Link>
-              <Card.Link href={proj.liveUrl} className={classes.proLink}>
+              <Card.Link
+                target="__blank"
+                rel="noopener noreferrer"
+                href={proj.liveUrl}
+                className={classes.proLink}
+              >
                 Live URL
               </Card.Link>
             </Card.Body>
