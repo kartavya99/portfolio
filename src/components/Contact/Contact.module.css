@@ -17,17 +17,20 @@
   font-size: 45px;
   text-align: justify;
   padding: 15px;
+  font-family: Montserrat;
 }
 
 .section {
   padding-right: 50px;
   padding-bottom: 25px;
   border-bottom: 3px solid whitesmoke;
+  font-family: Montserrat;
 }
 
 .text {
   font-size: 25px;
   text-align: justify;
+  font-family: Montserrat;
 }
 
 .footer {
@@ -49,7 +52,7 @@
   }
 
   .title {
-    font-size: 35px;
+    font-size: 12px;
     text-align: end;
     margin-right: 30px;
     padding: 0px;

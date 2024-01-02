@@ -2,7 +2,7 @@ import React from "react";
 import ProjectData from "./ProjectData";
 import classes from "./Projects.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Card from "react-bootstrap/Card";
+import { Figure, Card } from "react-bootstrap";
 
 const Projects = () => {
   return (
@@ -17,7 +17,14 @@ const Projects = () => {
             className=" card custom-style box p-3 m-3"
             style={{ width: "18rem" }}
           >
-            <Card.Img variant="top" src={proj.img} />
+            <Figure>
+              <Figure.Image
+                width={171}
+                height={180}
+                alt="171x180"
+                src={proj.img}
+              />
+            </Figure>
             <Card.Body style={{ backgroundColor: "white" }}>
               <Card.Title className={classes.proTitle}>{proj.title}</Card.Title>
               <Card.Text className={classes.proTech}>
