@@ -12,10 +12,11 @@ const Projects = () => {
       </header>
 
       <section className={classes.projectCard}>
-        {ProjectData.map((proj) => (
+        {ProjectData.map((proj, ind) => (
           <Card
             className=" card custom-style box p-3 m-3"
             style={{ width: "18rem" }}
+            key={ind}
           >
             <Figure>
               <Figure.Image

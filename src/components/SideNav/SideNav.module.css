@@ -5,6 +5,7 @@
   padding-top: 20px;
   top: 0;
   left: 0;
+  overflow-x: hidden;
 }
 
 .img {

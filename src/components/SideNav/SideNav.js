@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img from "../../assets/pic.jpg";
 import classes from "./SideNav.module.css";
+import resume from "../../Resume/resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -27,9 +28,14 @@ const SideNav = () => {
         <Link className={classes.navLink} to="contact">
           Contact
         </Link>
-        <Link className={classes.navLink}>
+        <a
+          className={classes.navLink}
+          href={resume}
+          target="__blank"
+          rel="noopener noreferrer"
+        >
           Resume <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
-        </Link>
+        </a>
       </li>
       <footer>
         <div>
