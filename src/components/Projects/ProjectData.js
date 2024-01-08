@@ -1,5 +1,21 @@
 const projectData = [
   {
+    title: "Project-Mangenment-App",
+    technology: "React & Tailwind CSS",
+    liveUrl: "https://project-tailwind-two.vercel.app/",
+    gitHubUrl: "https://github.com/kartavya99/project-tailwind",
+    img: "https://i.imgur.com/LxWiNNv.png",
+    alt: "Project Management application build with React and Tailwind Css",
+  },
+  {
+    title: "React portfolio old",
+    technology: "React, Bootstrap & CSS",
+    liveUrl: "https://kartavya99.github.io/react-portfolio/",
+    gitHubUrl: "https://github.com/kartavya99/react-portfolio",
+    img: "https://i.imgur.com/o87M8bI.png",
+    alt: "Old portfolio build with React, Bootstrap and CSS",
+  },
+  {
     title: "Ecommerce-platform",
     technology: "MERN & GraphQL",
     liveUrl: "https://ecomm-platformks.herokuapp.com/",
