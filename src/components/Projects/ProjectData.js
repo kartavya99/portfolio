@@ -26,7 +26,7 @@ const projectData = [
   {
     title: "Together Fitness",
     technology: "JavaScript, Handlebars, NodeJs, SQL, Express",
-    liveUrl: "https://together-fitness.herokuapp.com/",
+    liveUrl: "https://togetherfitness.herokuapp.com",
     gitHubUrl: "https://github.com/kartavya99/p2-t3-togetherfitness.git",
     img: "https://i.imgur.com/sLFAL9w.png?1",
     alt: "Together Fitness is a full stack web application where a user can register, find a workout of their liking and attend the workout by signing up for it.",
