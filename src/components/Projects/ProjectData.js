@@ -1,5 +1,13 @@
 const projectData = [
   {
+    title: "Ecommerce template ",
+    technology: "HTML, CSS & Bootstrap",
+    liveUrl: "https://ecomm-bootstrap.vercel.app/",
+    gitHubUrl: "https://github.com/kartavya99/ecomm-bootstrap",
+    img: "https://i.imgur.com/LWPd9hr.png",
+    alt: "ecomm web template",
+  },
+  {
     title: "Project-Mangenment-App",
     technology: "React & Tailwind CSS",
     liveUrl: "https://project-tailwind-two.vercel.app/",
