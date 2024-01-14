@@ -1,5 +1,13 @@
 const projectData = [
   {
+    title: "Redux-Toolkit-Cart ",
+    technology: "App will only work on local json server",
+    liveUrl: "https://redux-toolkit-crud-seven.vercel.app/",
+    gitHubUrl: "https://github.com/kartavya99/redux-toolkit-CRUD-",
+    img: "https://i.imgur.com/ROgiw2p.png",
+    alt: "Redux-toolkit",
+  },
+  {
     title: "Ecommerce template ",
     technology: "HTML, CSS & Bootstrap",
     liveUrl: "https://ecomm-bootstrap.vercel.app/",
