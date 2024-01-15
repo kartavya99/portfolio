@@ -13,26 +13,22 @@ const Projects = () => {
 
       <section className={classes.projectCard}>
         {ProjectData.map((proj, ind) => (
-          <Card
-            className=" card custom-style box p-3 m-3"
-            style={{ width: "18rem" }}
-            key={ind}
-          >
+          <Card className={classes.card} style={{ width: "18rem" }} key={ind}>
             <Figure>
               <Figure.Image
-                width={255}
-                height={180}
-                alt="171x180"
+                width={275}
+                alt="projects"
                 src={proj.img}
+                className="m-0"
               />
             </Figure>
-            <Card.Body style={{ backgroundColor: "white" }}>
+            <Card.Body className={classes.cardBody}>
               <Card.Title className={classes.proTitle}>{proj.title}</Card.Title>
               <Card.Text className={classes.proTech}>
                 {proj.technology}
               </Card.Text>
             </Card.Body>
-            <Card.Body>
+            <Card.Body className={classes.cardBody}>
               <Card.Link
                 target="__blank"
                 rel="noopener noreferrer"

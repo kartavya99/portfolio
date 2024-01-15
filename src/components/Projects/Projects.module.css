@@ -19,15 +19,29 @@
   margin-bottom: 10px;
 }
 
+.card {
+  margin: 15px;
+  padding: 15px;
+  background-color: #edf4f5;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.cardBody {
+  background-color: #edf4f5;
+}
+
 .proTitle {
-  background-color: white;
-  color: black;
+  color: #444444;
   padding: 20px;
   font-weight: 600;
+  background-color: #edf4f5;
 }
 
 .proTech {
-  background-color: white;
+  background-color: #edf4f5;
   color: black;
   padding: 5px;
   margin: -8px 0px 0px 0px;
@@ -36,8 +50,8 @@
 }
 
 .proLink {
-  background-color: white;
-  color: black;
+  background-color: rgb(58, 56, 56);
+  color: white;
   text-decoration: none;
   font-size: 15px;
   display: inline-block;
