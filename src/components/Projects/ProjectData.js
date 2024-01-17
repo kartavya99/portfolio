@@ -1,5 +1,13 @@
 const projectData = [
   {
+    title: "React Ecomm template ",
+    technology: "ReactJs, React-Router-dom, Tailwind CSS",
+    liveUrl: "https://react-ecomm-tailwind-template.vercel.app/",
+    gitHubUrl: "https://github.com/kartavya99/react--ecomm-tailwind-template",
+    img: "https://i.imgur.com/gcmZy7y.png",
+    alt: "react ecomm",
+  },
+  {
     title: "Redux-Toolkit-Cart ",
     technology: "App will only work on local json server",
     liveUrl: "https://redux-toolkit-crud-seven.vercel.app/",
