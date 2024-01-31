@@ -1,5 +1,13 @@
 const projectData = [
   {
+    title: "MERN-Ecommerce ",
+    technology: "MongoDB, React, Express, NodeJs, Redux-toolkit",
+    liveUrl: "https://mern-ecommerce-one-navy.vercel.app/",
+    gitHubUrl: "https://github.com/kartavya99/MERN-ecommerce-Frontend",
+    img: "https://i.imgur.com/XUu53J3.png",
+    alt: "MERN-Ecomm",
+  },
+  {
     title: "React Ecomm template ",
     technology: "ReactJs, React-Router-dom, Tailwind CSS",
     liveUrl: "https://react-ecomm-tailwind-template.vercel.app/",
@@ -7,14 +15,7 @@ const projectData = [
     img: "https://i.imgur.com/gcmZy7y.png",
     alt: "react ecomm",
   },
-  {
-    title: "Redux-Toolkit-Cart ",
-    technology: "App will only work on local json server",
-    liveUrl: "https://redux-toolkit-crud-seven.vercel.app/",
-    gitHubUrl: "https://github.com/kartavya99/redux-toolkit-CRUD-",
-    img: "https://i.imgur.com/ROgiw2p.png",
-    alt: "Redux-toolkit",
-  },
+
   {
     title: "Ecommerce template ",
     technology: "HTML, CSS & Bootstrap",
@@ -31,14 +32,7 @@ const projectData = [
     img: "https://i.imgur.com/LxWiNNv.png",
     alt: "Project Management application build with React and Tailwind Css",
   },
-  {
-    title: "React portfolio old",
-    technology: "React, Bootstrap & CSS",
-    liveUrl: "https://kartavya99.github.io/react-portfolio/",
-    gitHubUrl: "https://github.com/kartavya99/react-portfolio",
-    img: "https://i.imgur.com/o87M8bI.png",
-    alt: "Old portfolio build with React, Bootstrap and CSS",
-  },
+
   {
     title: "Ecommerce-platform",
     technology: "MERN & GraphQL",
@@ -75,15 +69,6 @@ const projectData = [
   },
 
   {
-    title: "Social Network API",
-    technology: "JavaScript, Express, MongoDB",
-    liveUrl:
-      "https://drive.google.com/file/d/1Um5eW8q-2_ecHuoaZBw3onwbk9TGZA-F/view",
-    gitHubUrl: "https://github.com/kartavya99/NoSQL-Social-Network-API.git",
-    img: "https://i.imgur.com/5FSUJj2.png?2",
-    alt: "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list",
-  },
-  {
     title: "Team Profile Generator",
     technology: "JavaScript, Inquirer, NodeJs, Jest, Bootstrap",
     liveUrl:
@@ -91,6 +76,15 @@ const projectData = [
     gitHubUrl: "https://github.com/kartavya99/Team-Profile-Generator.git",
     img: "https://i.imgur.com/fnFZ0hX.png?1",
     alt: "A Node command-line application that predominately uses the inquirer package and takes in information about employees and generates an HTML webpage that renders summaries for each person on HTML page.",
+  },
+  {
+    title: "PWA Text Editor",
+    technology: "JavaScript, Webpack, NodeJs, Express",
+    liveUrl: "https://pwatexteditorks.herokuapp.com/",
+    gitHubUrl:
+      "https://github.com/kartavya99/ProgressiveWebApplications-Text-Editor.git",
+    img: "https://i.imgur.com/KOO8lSb.png?3",
+    alt: "A text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline",
   },
   {
     title: "Search it",
@@ -109,15 +103,7 @@ const projectData = [
     img: "https://i.imgur.com/fMrZFkr.png",
     alt: "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well",
   },
-  {
-    title: "Text Editor",
-    technology: "JavaScript, Webpack, NodeJs, Express",
-    liveUrl: "https://pwatexteditorks.herokuapp.com/",
-    gitHubUrl:
-      "https://github.com/kartavya99/ProgressiveWebApplications-Text-Editor.git",
-    img: "https://i.imgur.com/KOO8lSb.png?3",
-    alt: "A text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline",
-  },
+
   {
     title: "Weather Dashboard",
     technology: "JavaScript, REST API",
