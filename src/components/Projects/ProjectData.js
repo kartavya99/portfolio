@@ -8,12 +8,20 @@ const projectData = [
     alt: "MERN-Ecomm",
   },
   {
-    title: "React Ecomm template ",
-    technology: "ReactJs, React-Router-dom, Tailwind CSS",
-    liveUrl: "https://react-ecomm-tailwind-template.vercel.app/",
-    gitHubUrl: "https://github.com/kartavya99/react--ecomm-tailwind-template",
-    img: "https://i.imgur.com/gcmZy7y.png",
-    alt: "react ecomm",
+    title: "MERN-Booking App ",
+    technology: "MongoDB, React, Express, NodeJs, TypeScript",
+    liveUrl: "https://mern-booking-app-7czr.onrender.com//",
+    gitHubUrl: "https://github.com/kartavya99/MERN-Booking-App",
+    img: "https://i.imgur.com/FkKmOyc.png",
+    alt: "MERN-Booking-App",
+  },
+  {
+    title: "Project-Mangenment-App",
+    technology: "React, ExpressJs, MongoDB, NodeJs, GraphQl, Apollo-Client",
+    liveUrl: "https://pro-mgmt-graphql.vercel.app/",
+    gitHubUrl: "https://github.com/kartavya99/project-mgmt-frontend",
+    img: "https://i.imgur.com/ccAy9nj.png",
+    alt: "Project Management ",
   },
 
   {
@@ -23,14 +31,6 @@ const projectData = [
     gitHubUrl: "https://github.com/kartavya99/ecomm-bootstrap",
     img: "https://i.imgur.com/LWPd9hr.png",
     alt: "ecomm web template",
-  },
-  {
-    title: "Project-Mangenment-App",
-    technology: "React & Tailwind CSS",
-    liveUrl: "https://project-tailwind-two.vercel.app/",
-    gitHubUrl: "https://github.com/kartavya99/project-tailwind",
-    img: "https://i.imgur.com/LxWiNNv.png",
-    alt: "Project Management application build with React and Tailwind Css",
   },
 
   {
