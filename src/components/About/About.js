@@ -9,29 +9,33 @@ const About = () => {
       </header>
       <section className={classes.sectionOne}>
         <p>
-          Full stack web developer leveraging a background in sales and
-          marketing to provide the best user experience for web application
-          development.
+          A seasoned Full Stack Web Developer proficient in the MREN stack,
+          combining a solid foundation in sales and marketing to enhance user
+          experience in web application development. Demonstrated expertise in
+          crafting seamless digital experiences that drive engagement and
+          deliver exceptional results.
         </p>
       </section>
 
       <section>
         <p>
-          Currently completing a Certificate in Full Stack Web Development at
-          Monash University with skills in HTML, CSS, JavaScript, MongoDB,
-          React, ExpressJs, NodeJS. Adaptive problem-solver who loves to develop
-          apps with focus on mobile-first design and development. I have gained
-          good understanding of computer science applied to JavaScript, browser
-          based technologies HTML, CSS, JavaScript, JQuery and Git the version
+          completed a Certificate in Full Stack Web Development at Monash
+          University, equipped with proficiency in HTML, CSS, JavaScript,
+          MongoDB, React, ExpressJs, and NodeJS. Known for adaptive
+          problem-solving skills, specializing in mobile-first design and
+          development. Possesses a comprehensive understanding of computer
+          science principles as applied to JavaScript and browser-based
+          technologies, including HTML, CSS, JavaScript, JQuery, and Git version
           control system.
         </p>
       </section>
 
       <section>
         <p>
-          Strengths in adaptability, detail-orientation, creativity,
+          I excel in adaptability, attention to detail, creativity, effective
           communication, problem-solving, teamwork, time-management, leadership,
-          perseverance, and building projects from concept to completion.
+          perseverance, and the ability to shepherd projects from conception to
+          fruition.
         </p>
       </section>
     </div>

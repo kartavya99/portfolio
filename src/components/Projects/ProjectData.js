@@ -1,5 +1,13 @@
 const projectData = [
   {
+    title: "MERN-Food Ordering",
+    technology: "MongoDB, React, Express, NodeJs, TypeScript",
+    liveUrl: "https://mern-food-order-frontend.onrender.com/",
+    gitHubUrl: "https://github.com/kartavya99/mern-food-ordering-app",
+    img: "https://i.imgur.com/w1pE8Hw.png",
+    alt: "MERN-Food Ordering",
+  },
+  {
     title: "MERN-Ecommerce ",
     technology: "MongoDB, React, Express, NodeJs, Redux-toolkit",
     liveUrl: "https://mern-ecommerce-one-navy.vercel.app/",

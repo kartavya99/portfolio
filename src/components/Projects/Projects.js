@@ -14,12 +14,12 @@ const Projects = () => {
       <section className={classes.projectCard}>
         {ProjectData.map((proj, ind) => (
           <Card className={classes.card} style={{ width: "18rem" }} key={ind}>
-            <Figure>
+            <Figure className={classes.figure}>
               <Figure.Image
                 width={275}
                 alt="projects"
                 src={proj.img}
-                className="m-0"
+                className={classes.aspectRatio}
               />
             </Figure>
             <Card.Body className={classes.cardBody}>

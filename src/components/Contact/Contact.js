@@ -8,7 +8,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <div className={classes.main}>
+    <div className={classes.mainContact}>
       <div>
         <header className={classes.heading}>
           <h1>Contact Me |</h1>

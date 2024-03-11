@@ -2,7 +2,14 @@
   height: 100vh;
   margin-top: 15px;
   overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
+
+.mainProject::-webkit-scrollbar {
+  display: none;
+}
+
 .headingPro {
   text-align: right;
   font-size: 30px;
@@ -61,6 +68,18 @@
   border-radius: 0px;
   background-color: black;
   color: azure;
+}
+
+.figure {
+  border-radius: 5%;
+}
+
+.aspectRatio {
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 5%;
 }
 
 @media only screen and (max-width: 768px) {

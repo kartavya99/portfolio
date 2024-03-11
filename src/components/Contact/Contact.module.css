@@ -1,7 +1,9 @@
-.main {
+.mainContact {
   height: 100vh;
   margin-top: 15px;
   overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .heading {
