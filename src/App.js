@@ -11,10 +11,19 @@ import {
   faServer,
   faToolbox,
   faLightbulb,
+  faMicrochip,
+  faTerminal,
 } from "@fortawesome/free-solid-svg-icons";
 import HomePage from "./components/HomePage/HomePage";
 
-library.add(faLaptopCode, faServer, faToolbox, faLightbulb);
+library.add(
+  faLaptopCode,
+  faServer,
+  faToolbox,
+  faLightbulb,
+  faMicrochip,
+  faTerminal
+);
 
 const router = createBrowserRouter([
   {

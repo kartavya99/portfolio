@@ -1,5 +1,19 @@
 export const skillData = [
   {
+    title: "Programming Languages",
+    items: [
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+      "SQL",
+      "NoSQL",
+      "TypeScript",
+      "Linux Fundamental",
+      "Bash Scripting",
+    ],
+    icon: "terminal",
+  },
+  {
     title: "Frontend",
     items: [
       "React",
@@ -14,6 +28,7 @@ export const skillData = [
       "Tailwind CSS",
       "Shadcn-ui",
       "React Hook Form",
+      "Cloudinary",
     ],
     icon: "laptop-code",
   },
@@ -27,7 +42,6 @@ export const skillData = [
       "Object-Oriented Programming",
       "Object-Relational Mapping (OPM)",
       "Apollo",
-      "SQL",
       "Sequelize",
       "MongoDB",
       "Mongoose",
@@ -49,6 +63,20 @@ export const skillData = [
       "Vercel",
     ],
     icon: "toolbox",
+  },
+  {
+    title: "DevOps and Infrastructure",
+    items: [
+      "Ansible",
+      "Terraform",
+      "AWS CloudFormation",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Github Actions",
+    ],
+    icon: "microchip",
   },
   {
     title: "Productivity",
