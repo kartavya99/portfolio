@@ -1,5 +1,14 @@
 const projectData = [
   {
+    title: "Jobber MarketPlace",
+    technology: "NodeJs, React, Redux, RTK Query, Docker, Kubernetes",
+    liveUrl:
+      "https://drive.google.com/file/d/13XbEe5qYVZfcHxZ3We0wUeQkQZ9R-vmt/view",
+    gitHubUrl: "https://github.com/kartavya99/jobber-demo",
+    img: "https://i.imgur.com/d9CSTje.png",
+    alt: "Jobber MarketPlace",
+  },
+  {
     title: "MERN-Food Ordering",
     technology: "MongoDB, React, Express, NodeJs, TypeScript",
     liveUrl: "https://mern-food-order-frontend.onrender.com/",
@@ -30,24 +39,6 @@ const projectData = [
     gitHubUrl: "https://github.com/kartavya99/project-mgmt-frontend",
     img: "https://i.imgur.com/ccAy9nj.png",
     alt: "Project Management ",
-  },
-
-  {
-    title: "Ecommerce template ",
-    technology: "HTML, CSS & Bootstrap",
-    liveUrl: "https://ecomm-bootstrap.vercel.app/",
-    gitHubUrl: "https://github.com/kartavya99/ecomm-bootstrap",
-    img: "https://i.imgur.com/LWPd9hr.png",
-    alt: "ecomm web template",
-  },
-
-  {
-    title: "Ecommerce-platform",
-    technology: "MERN & GraphQL",
-    liveUrl: "https://ecomm-platformks.herokuapp.com/",
-    gitHubUrl: "https://github.com/kartavya99/ecommerce-website.git",
-    img: "https://i.imgur.com/VV3ar9Z.png",
-    alt: "A full stack web application build with MERN stack, where business can list their products for marketing and advertising purpose.",
   },
   {
     title: "Together Fitness",
