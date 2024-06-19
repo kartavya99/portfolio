@@ -3,7 +3,7 @@ const projectData = [
     title: "Jobber MarketPlace",
     technology: "NodeJs, React, Redux, RTK Query, Docker, Kubernetes",
     liveUrl:
-      "https://drive.google.com/file/d/13XbEe5qYVZfcHxZ3We0wUeQkQZ9R-vmt/view",
+      "https://drive.google.com/file/d/1rI_0ksaDkI-E0z1eek4-2n9sl4m7aNqj/view?usp=sharing",
     gitHubUrl: "https://github.com/kartavya99/jobber-demo",
     img: "https://i.imgur.com/d9CSTje.png",
     alt: "Jobber MarketPlace",
