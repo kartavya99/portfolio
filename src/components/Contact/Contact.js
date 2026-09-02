@@ -21,12 +21,12 @@ const Contact = () => {
 
       <section className={classes.section}>
         <p className={classes.text}>
-          Thank you for taking time to go through my portfolio! I am very
-          passionate about learning new technologies and I hope that some of my
-          projects would have created interest in you as Web developer.
+          Thank you looking through my work. I am currently open to mid-level
+          .NET and full stack roles with remote or hybrid option and I an always
+          happy to talk about interesting projects.
         </p>
         <p className={classes.text}>
-          Should you like to reach out me, please feel free to send me an email{" "}
+          The quickest way to reach me is by email.
         </p>
       </section>
 

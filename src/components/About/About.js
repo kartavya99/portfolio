@@ -9,33 +9,37 @@ const About = () => {
       </header>
       <section className={classes.sectionOne}>
         <p>
-          A seasoned Full Stack Web Developer proficient in the MREN stack,
-          combining a solid foundation in sales and marketing to enhance user
-          experience in web application development. Demonstrated expertise in
-          crafting seamless digital experiences that drive engagement and
-          deliver exceptional results.
+          I am a full stack developer working across .NET and JavaScript based
+          in Melbourne.
         </p>
       </section>
 
       <section>
         <p>
-          completed a Certificate in Full Stack Web Development at Monash
-          University, equipped with proficiency in HTML, CSS, JavaScript,
-          MongoDB, React, ExpressJs, and NodeJS. Known for adaptive
-          problem-solving skills, specializing in mobile-first design and
-          development. Possesses a comprehensive understanding of computer
-          science principles as applied to JavaScript and browser-based
-          technologies, including HTML, CSS, JavaScript, JQuery, and Git version
-          control system.
+          For the past two years I have been at Cancer Council Victoria,
+          maintaining a legacy C# external CMS platform and managing the front
+          end of all Cancer Council Victoria's public-facing sites including
+          CancerVic, SunSmart, Food for Health Alliance along side building
+          fundraising pages for campaigns like Girls' Night In and Cancer
+          Research Day under fixed delivery deadlines.
         </p>
       </section>
 
       <section>
         <p>
-          I excel in adaptability, attention to detail, creativity, effective
-          communication, problem-solving, teamwork, time-management, leadership,
-          perseverance, and the ability to shepherd projects from conception to
-          fruition.
+          Most my recent work has been on distributed systems. I have built two
+          microservice platforms - one in .NET on Azure using AKS, Azure DevOps,
+          API Management, Service Bus and Entra ID B2C and one in Node.js and
+          typeScript with RabbitMQ, Redis and Elasticsearch. Working through
+          patterns, containerisation and CI/CD pipelines on those is where most
+          of my recent learning has gone.
+        </p>
+      </section>
+
+      <section>
+        <p>
+          Australians citizen, currently looking for mid-level .NET of full
+          stack roles with remote or hybrid options.
         </p>
       </section>
     </div>
