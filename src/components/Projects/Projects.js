@@ -37,14 +37,14 @@ const Projects = () => {
               >
                 Source Code
               </Card.Link>
-              <Card.Link
+              {/* <Card.Link
                 target="__blank"
                 rel="noopener noreferrer"
                 href={proj.liveUrl}
                 className={classes.proLink}
               >
                 Live URL
-              </Card.Link>
+              </Card.Link> */}
             </Card.Body>
           </Card>
         ))}
