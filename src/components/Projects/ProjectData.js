@@ -1,6 +1,15 @@
 import stockapp from "../../assets/stockapp.png";
+import CDM from "../../assets/CDM.png";
 
 const projectData = [
+  {
+    title: "Contact Details Manager",
+    technology: "ASP.NET Core, EntityFramework, SQL server, Moq",
+    liveUrl: "https://github.com/kartavya99/Contact-Details-Manager",
+    gitHubUrl: "https://github.com/kartavya99/Contact-Details-Manager",
+    img: CDM,
+    alt: "Contact Details Manager",
+  },
   {
     title: "Stock App",
     technology: "ASP.NET Core, EntityFramework, SQL server, Moq,  ",
